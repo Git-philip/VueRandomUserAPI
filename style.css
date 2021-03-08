@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.signBtn {
+	background-color: teal;
+	width: 120px;
+	height: 40px;
+	border: none;
+	color: white;
+}
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	/* box-shadow: 10px 0px 4px teal; */
+	border: 7px solid teal;
+}
+.male {
+	border-color: teal;
+	background-color: teal;
+}
+.female {
+	border-color: pink;
+	background-color: pink;
+}
